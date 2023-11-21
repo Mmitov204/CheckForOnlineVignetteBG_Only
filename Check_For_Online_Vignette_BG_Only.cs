@@ -36,7 +36,7 @@ class Program
 
         using (HttpClient client = new HttpClient())
         {
-            // You may need to add headers or parameters based on the API documentation.
+           
             HttpResponseMessage response = await client.GetAsync($"{apiUrl}?registrationNumber={registrationNumber}&apiKey={apiKey}");
 
             response.EnsureSuccessStatusCode(); // Throw an exception if the request is not successful.

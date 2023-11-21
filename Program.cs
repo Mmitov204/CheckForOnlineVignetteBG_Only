@@ -30,7 +30,7 @@ class Program
 
     static async Task<bool> CheckVignette(string registrationNumber)
     {
-        // Replace these placeholders with the actual API endpoint and any necessary authentication.
+        // API
         string apiUrl = "https://check.bgtoll.bg/";
         string apiKey = "your_api_key";
 
@@ -41,8 +41,7 @@ class Program
 
             response.EnsureSuccessStatusCode(); // Throw an exception if the request is not successful.
 
-            // Replace the following line with actual parsing of the response to determine if there's a valid vignette.
-            // This might involve checking the response content or status codes.
+         
             string responseBody = await response.Content.ReadAsStringAsync();
 
             // For simplicity, let's assume the presence of the word "valid" in the response indicates a valid vignette.

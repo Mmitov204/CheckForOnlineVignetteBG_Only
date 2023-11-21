@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check for online vignette", "Check for online vignette.csproj", "{D2BEC6D6-1249-4BC3-AF22-6F3BDAD963DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2BEC6D6-1249-4BC3-AF22-6F3BDAD963DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BEC6D6-1249-4BC3-AF22-6F3BDAD963DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BEC6D6-1249-4BC3-AF22-6F3BDAD963DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BEC6D6-1249-4BC3-AF22-6F3BDAD963DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75328757-EBB0-4AC6-B159-659C046930FB}
+	EndGlobalSection
+EndGlobal
